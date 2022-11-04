@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment{
         FUNCTION_NAME="educacionit_s3toDynamonCSVImport"
-        BUCKETS3="jheison-csv-loader-bucket"
+        BUCKETS3="jheison-code-backend-bucket"
         ZIP="function.zip"
         CODE="lambda_function.py"
     }
